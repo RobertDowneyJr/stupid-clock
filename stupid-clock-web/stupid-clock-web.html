@@ -1,0 +1,20 @@
+<head>
+  <title>stupid-clock-web</title>
+</head>
+
+<body>
+  {{> main}}
+</body>
+
+<template name="main">
+  
+  <div class="positionCenterScreen clockFace">  
+	{{currTime}}
+  </div>
+  
+  <div class="span5">
+	<div style="right:0">
+	{{loginButtons align="right"}}
+	</div>
+  </div>
+</template>

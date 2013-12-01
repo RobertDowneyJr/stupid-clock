@@ -1,0 +1,13 @@
+/* CSS declarations go here */
+.positionCenterScreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 0;
+    margin-left: -10%;
+    width: auto;
+    height: auto;
+}
+.clockFace {
+   font-size: 350%;
+}
